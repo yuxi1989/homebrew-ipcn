@@ -1,8 +1,8 @@
 class Ipcn < Formula
   desc "IP/Domain geolocation & ASN lookup CLI"
   homepage "https://github.com/yuxi1989/ipcn"
-  url "https://github.com/yuxi1989/ipcn/archive/refs/tags/v0.2.5.tar.gz"
-  sha256 "ad6cf59cade07dcaa1682ce19d46fd4c6c838a7fc1acd8500b6374cdf8a98827"
+  url "https://github.com/yuxi1989/ipcn/archive/refs/tags/v0.2.6.tar.gz"
+  sha256 "dd1ec59a5d6598f382a3844298023618bfee297f7bf828a5812323eaf0e57732"
   license "MIT"
 
   depends_on "jq"
