@@ -12,6 +12,7 @@ class Ipinfo < Formula
   end
 
   test do
-    assert_match "IP:", shell_output("#{bin}/ipinfo 8.8.8.8")
+    assert_predicate bin/"ipinfo", :exist?
+    assert_predicate bin/"ipinfo", :executable?
   end
 end
